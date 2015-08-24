@@ -1,6 +1,6 @@
 {
   "name": "elastic-bulk-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "transform stream to transfer data to elasticsearch",
   "main": "index.js",
   "scripts": {

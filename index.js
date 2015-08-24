@@ -21,6 +21,7 @@ const noop = function() {}
 
 function ElasticBulkStream(client, opts) {
   Transform.call(this, { objectMode: true })
+  opts = opts || {}
   this.client = client
   this.bodyMaxSize = opts.bodyMaxSize || 10
   this.flushInterval = opts.flushInterval || 1000
